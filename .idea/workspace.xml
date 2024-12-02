@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83273275-fad3-4320-81dd-d547ec262440" name="Changes" comment="third change" />
+    <list default="true" id="83273275-fad3-4320-81dd-d547ec262440" name="Changes" comment="third change">
+      <change beforePath="$PROJECT_DIR$/githubPackage/gitHubTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/githubPackage/gitHubTest.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +54,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/nachala/PycharmProjects/pythonGithub",
     "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
   }
