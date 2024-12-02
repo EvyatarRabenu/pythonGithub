@@ -6,4 +6,3 @@ print(y)
 
 z = 30
 print(z)
-
