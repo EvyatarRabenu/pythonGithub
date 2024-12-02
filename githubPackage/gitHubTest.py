@@ -4,5 +4,5 @@ print(x)
 y = 20
 print(y)
 
-z=10
+z = 30
 print(z)
