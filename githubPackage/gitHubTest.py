@@ -7,8 +7,8 @@ print(y)
 z = 30
 print(z)
 
-t = 50
-print(t)
+t = 20
+prinsdfsdft(t)
 
 
 print("hello world")
