@@ -8,7 +8,7 @@ z = 30
 print(z)
 
 t = 20
-prinsdfsdft(t)
+print(t)
 
 
 print("hello world")
