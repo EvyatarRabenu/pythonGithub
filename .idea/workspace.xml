@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83273275-fad3-4320-81dd-d547ec262440" name="Changes" comment="third change">
+    <list default="true" id="83273275-fad3-4320-81dd-d547ec262440" name="Changes" comment="second_file">
+      <change afterPath="$PROJECT_DIR$/githubPackage/HardDisk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/githubPackage/gitHubTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/githubPackage/gitHubTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/githubPackage/second_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/githubPackage/second_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +56,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.gitHubTest.executor": "Run",
+    "Python.second_test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/nachala/PycharmProjects/pythonGithub",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
+    "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -115,13 +120,22 @@
       <option name="project" value="LOCAL" />
       <updated>1733144062751</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL‎-00006" summary="second_file">
+      <option name="closed" value="true" />
+      <created>1733147621046</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL‎-00006" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1733147621046</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test commit and push" />
     <MESSAGE value="second" />
     <MESSAGE value="third change" />
-    <option name="LAST_COMMIT_MESSAGE" value="third change" />
+    <MESSAGE value="second_file" />
+    <option name="LAST_COMMIT_MESSAGE" value="second_file" />
   </component>
 </project>
