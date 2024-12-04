@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83273275-fad3-4320-81dd-d547ec262440" name="Changes" comment="second_file">
-      <change afterPath="$PROJECT_DIR$/githubPackage/HardDisk.py" afterDir="false" />
+    <list default="true" id="83273275-fad3-4320-81dd-d547ec262440" name="Changes" comment="HardDisk class addFile update">
+      <change afterPath="$PROJECT_DIR$/githubPackage/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/githubPackage/gitHubTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/githubPackage/gitHubTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/githubPackage/second_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/githubPackage/second_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/githubPackage/HardDisk.py" beforeDir="false" afterPath="$PROJECT_DIR$/githubPackage/HardDisk.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.HardDisk.executor": "Run",
     "Python.gitHubTest.executor": "Run",
+    "Python.main.executor": "Run",
     "Python.second_test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -128,7 +129,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1733147621046</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL‎-00007" summary="HardDisk class addFile update">
+      <option name="closed" value="true" />
+      <created>1733297449149</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL‎-00007" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1733297449149</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -136,6 +145,7 @@
     <MESSAGE value="second" />
     <MESSAGE value="third change" />
     <MESSAGE value="second_file" />
-    <option name="LAST_COMMIT_MESSAGE" value="second_file" />
+    <MESSAGE value="HardDisk class addFile update" />
+    <option name="LAST_COMMIT_MESSAGE" value="HardDisk class addFile update" />
   </component>
 </project>
