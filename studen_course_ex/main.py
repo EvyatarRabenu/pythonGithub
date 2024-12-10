@@ -5,36 +5,69 @@ course_number = input("Please enter course number: ")
 course_name = input("Please enter course name: ")
 max_students = int(input("Please enter max students in course: "))
 course1 = Course(course_number,course_name,max_students)
-subject1 = input("Please enter subject: ")
-teacher1 = input("Please enter teacher name: ")
-course1.add_sub_teacher(subject1,teacher1)
+
+num_of_subs = int(input("please enter how many subjects you want to enter: "))
+for _ in range(num_of_subs):
+    subject = input("Please enter subject name: ")
+    teacher = input("Please enter teacher name: ")
+    course1.add_sub_teacher(subject,teacher)
+
+
 student_id = input("enter student id: ")
 
 while student_id != '0':
+    student_grades = {}
     if not course1.space_in_course():
+        print("class is full!!")
         break
+
     student_name = input("enter student name: ")
-    subject_name = input("enter subject name: ")
-    grade = int(input("enter subject name: "))
+    student_age = int(input("enter student age: "))
 
-
+    for subject in course1.subject_teacher_dic:
+        grade = int(input(f"enter your grade for {subject}: "))
+        student_grades[subject]=grade
+    student = Student(student_id,student_name,student_age,student_grades)
+    #students_list.append(student)
+    if not course1.add_student(student):
+        break
     student_id = input("enter student id: ")
 
+print()
+print(course1.student_list)
+print()
+
+factor_subject = input("please enter subject name for factor: ")
+factor = int(input("please enter factor present: "))
+print()
+
+course1.add_factor(factor_subject,factor)
+print(course1.student_list[0].subject_grade_dic)
+print()
+
+lowest_students = course1.weak_students()  # Get IDs of the weakest students
+
+for student_id in lowest_students:
+    # Find the Student object by looping through the list
+    student_to_remove = None
+    for s in course1.student_list:
+        if s.i_d == student_id:
+            student_to_remove = s
+            break  # Stop searching once the student is found
+
+    # Remove the student if found
+    if student_to_remove:
+        course1.del_student(student_to_remove)
+
+# Print the updated student list
+print(course1.student_list)
+print()
 
 
-# liron = Student('208233650','Liron Lojkin',25)
-# moshe = Student('312456345','Moshe Cohen',70)
-# liron.add_grade('python',70)
-# liron.add_grade('qa',90)
-# moshe.add_grade('python',80)
-# python_course = Course('1234','python',5)
-# python_course.add_student(liron)
-# python_course.add_student(moshe)
-# #python_course.add_factor('python',10)
-# print(python_course.weak_students())
-
-
-
-
-
-
+oldest_student = course1.student_list[0]
+for student in course1.student_list:
+    if oldest_student<student:
+        oldest_student=student
+print(oldest_student)
+print()
+print(course1)

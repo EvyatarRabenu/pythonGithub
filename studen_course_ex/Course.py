@@ -25,8 +25,8 @@ class Course:
             return False
         return True
 
-    def add_student(self,student:Student):
-        if len(self.student_list)+1 > self.max_student:
+    def add_student(self, student: Student):
+        if len(self.student_list) >= self.max_student:
             print("Course is full of students!!")
             return False
         self.student_list.append(student)

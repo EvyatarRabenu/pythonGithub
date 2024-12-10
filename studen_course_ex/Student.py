@@ -1,9 +1,9 @@
 class Student:
-    def __init__(self,i_d,name,age):
+    def __init__(self,i_d,name,age,subject_grade_dic):
         self.i_d = i_d
         self.name = name
         self.age = age
-        self.subject_grade_dic = {}
+        self.subject_grade_dic = subject_grade_dic
     def __repr__(self):
         return f"id: {self.i_d} name: {self.name}"
 

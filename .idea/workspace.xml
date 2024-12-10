@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83273275-fad3-4320-81dd-d547ec262440" name="Changes" comment="student_course1">
+    <list default="true" id="83273275-fad3-4320-81dd-d547ec262440" name="Changes" comment="student_course2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studen_course_ex/Course.py" beforeDir="false" afterPath="$PROJECT_DIR$/studen_course_ex/Course.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studen_course_ex/Student.py" beforeDir="false" afterPath="$PROJECT_DIR$/studen_course_ex/Student.py" afterDir="false" />
@@ -211,8 +211,35 @@
       <option name="project" value="LOCAL‎" />
       <updated>1733835944202</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL‎-00013" summary="student_course2">
+      <option name="closed" value="true" />
+      <created>1733837995763</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL‎-00013" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1733837995763</updated>
+    </task>
+    <task id="LOCAL‎-00014" summary="student_course2">
+      <option name="closed" value="true" />
+      <created>1733843785691</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL‎-00014" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1733843785691</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test commit and push" />
@@ -224,6 +251,7 @@
     <MESSAGE value="eq func" />
     <MESSAGE value="student_course" />
     <MESSAGE value="student_course1" />
-    <option name="LAST_COMMIT_MESSAGE" value="student_course1" />
+    <MESSAGE value="student_course2" />
+    <option name="LAST_COMMIT_MESSAGE" value="student_course2" />
   </component>
 </project>
