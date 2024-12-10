@@ -24,61 +24,42 @@ class HardDiskFiles:
         return self.size - self.used_space()
 
 
-    def add_file(self , name , size):
-        if name in self.files:
-            print(f"{name} is already exist")
+    def add_file(self , file:File):
+        if file in self.files:
+            print(f"{file.name}.{file.suffix} is already exist")
             return False
 
-        if self.free_space() < size:
-            print(f"No Space for file: {name}")
+        if self.free_space() < file.size:
+            print(f"No Space for file: {file.name}.{file.suffix}")
             return False
 
-        self.files[name] = size
+        self.files.append(file)
         return True
 
 
 
-    def del_file(self , name):
-        if name in self.files:
-            del self.files[name]
+    def del_file(self , file:File):
+        if file in self.files:
+            self.files.remove(file)
             return True
 
-        print(f"File {name} doesnt exist")
+        print(f"{file.name}.{file.suffix} doesnt exist")
         return False
 
-    def update_file(self , name , new_size):
-        if name not in self.files:
-            print(f"File {name} doesnt exist")
+    def update_file(self , file:File):
+        if file not in self.files:
+            print(f"{file.name}.{file.suffix} doesnt exist")
             return False
+        file_index = self.files.index(file)
 
         #Check if there is not enough space for the new size
-        if self.free_space() + self.files[name] < new_size:
-            print(f"No Space for updating file: {name}")
+        if self.used_space() + self.files[file_index].size < file.size:
+            print(f"No Space for updating: {file.name}.{file.suffix}")
             return False
 
         # All Valid - update the file size
-        self.files[name] = new_size
+        self.files[file_index] = file
         return True
-
-
-# class File:
-#     # Attributes : name , suffix , size
-#     def _init_(self , name , suffix , size):
-#         self.name = name
-#         self.suffix = suffix
-#         self.size = size
-#
-#     def _str_(self):
-#         print("i am _str_")
-#         return f"{self.name} , {self.suffix} , Size: {self.size}"
-#
-#
-#     # מדפיסה גם אובייקט אחד וגם רשימה של אובייקטים
-#     # שמים את פונקציה זו אם יהיה לי סדרה שנרצה להדפיס
-#     # נשתמש בפונקציה זו רק אם רוצים להדפיס אובייקט ברשימה
-#     def _repr_(self):
-#         print("i am _repr_")
-#         return f"{self.name} , {self.suffix} , Size: {self.size}"
 
 
 hd1 = HardDiskFiles(200)
@@ -86,8 +67,22 @@ hd1 = HardDiskFiles(200)
 file1 = File("file1", "docx", 30)
 file2 = File("file2", "txt", 60)
 file3 = File("file3", "txt", 100)
+file4 = File("file3", "txt", 100)
 
-hd1.files = [file1 , file2 , file3]
+#hd1.files = [file1 , file2 , file3]
+hd1.add_file(file1)
+hd1.add_file(file2)
+hd1.add_file(file3)
+hd1.add_file(file4)
 
-print(hd1.used_space())
-print(hd1.free_space())
+#print(hd1.used_space())
+#print(hd1.free_space())
+print(hd1)
+
+hd1.del_file(file2)
+print(hd1)
+
+file1 = File("file1", "docx", 50)
+hd1.update_file(file1)
+
+print(hd1)

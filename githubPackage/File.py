@@ -9,20 +9,20 @@ class File:
         print("i am _str_")
         return f"{self.name} , {self.suffix} , Size: {self.size}"
 
-
-
     # מדפיסה גם אובייקט אחד וגם רשימה של אובייקטים
     # שמים את פונקציה זו אם יהיה לי סדרה שנרצה להדפיס
     # נשתמש בפונקציה זו רק אם רוצים להדפיס אובייקט ברשימה
     def __repr__(self):
-        print("i am _repr_")
-        return f"{self.name} , {self.suffix} , Size: {self.size}"
+        return f"{self.name}.{self.suffix}  Size: {self.size}"
 
     def __eq__(self, other):
         if self.name == other.name and self.suffix == other.suffix:
             return True
         else:
             return False
+
+    def __gt__(self, other):
+        return self.size > other.size
 
 if __name__ == "__main__":
     file1 = File("file1", "docx", 30)
