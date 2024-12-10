@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83273275-fad3-4320-81dd-d547ec262440" name="Changes" comment="eq func">
-      <change afterPath="$PROJECT_DIR$/studen_course_ex/Course.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studen_course_ex/Student.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studen_course_ex/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studen_course_ex/main.py" afterDir="false" />
+    <list default="true" id="83273275-fad3-4320-81dd-d547ec262440" name="Changes" comment="student_course1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/githubPackage/File.py" beforeDir="false" afterPath="$PROJECT_DIR$/githubPackage/File.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/githubPackage/HardDiskFiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/githubPackage/HardDiskFiles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studen_course_ex/Course.py" beforeDir="false" afterPath="$PROJECT_DIR$/studen_course_ex/Course.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studen_course_ex/Student.py" beforeDir="false" afterPath="$PROJECT_DIR$/studen_course_ex/Student.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studen_course_ex/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/studen_course_ex/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +56,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Course.executor": "Run",
     "Python.File.executor": "Run",
     "Python.HardDisk.executor": "Run",
     "Python.HardDiskFiles.executor": "Run",
@@ -197,7 +195,23 @@
       <option name="project" value="LOCAL‎" />
       <updated>1733821909601</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL‎-00011" summary="student_course">
+      <option name="closed" value="true" />
+      <created>1733835659793</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL‎-00011" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1733835659793</updated>
+    </task>
+    <task id="LOCAL‎-00012" summary="student_course1">
+      <option name="closed" value="true" />
+      <created>1733835944202</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL‎-00012" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1733835944202</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -208,6 +222,8 @@
     <MESSAGE value="HardDisk class addFile update" />
     <MESSAGE value="HardDiskFile" />
     <MESSAGE value="eq func" />
-    <option name="LAST_COMMIT_MESSAGE" value="eq func" />
+    <MESSAGE value="student_course" />
+    <MESSAGE value="student_course1" />
+    <option name="LAST_COMMIT_MESSAGE" value="student_course1" />
   </component>
 </project>

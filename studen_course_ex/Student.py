@@ -4,8 +4,8 @@ class Student:
         self.name = name
         self.age = age
         self.subject_grade_dic = {}
-    def __str__(self):
-        return f"id: {self.i_d} \nname: {self.name}\nage: {self.age}\nsubject and grades : {self.subject_grade_dic}"
+    def __repr__(self):
+        return f"id: {self.i_d} name: {self.name}"
 
     def __eq__(self, other):
         return self.i_d == other.i_d
