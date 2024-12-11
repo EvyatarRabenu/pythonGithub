@@ -1,7 +1,14 @@
 from studen_course_ex.Course import Course
 from studen_course_ex.Student import Student
 
+
+
+
 # Get basic course details from the user
+try:
+    student = Student("123", "liron", 20, {"Math": 90})
+except ValueError as e:
+    print(e)  # Output: Invalid age: 3. Age must be between 5 and 120.
 course_number = input("Please enter course number: ")
 course_name = input("Please enter course name: ")
 max_students = int(input("Please enter max students in course: "))

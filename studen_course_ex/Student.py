@@ -1,6 +1,23 @@
 class Student:
     def __init__(self, i_d, name, age, subject_grade_dic):
-        # Initialize a student with ID, name, age, and grades dictionary.
+        """Initialize a student with ID, name, age, and grades dictionary."""
+
+        #check for type errors:
+        if type(i_d)!= str:
+            raise TypeError('id must be string!')
+        if type(name)!= str:
+            raise TypeError('name must be string!')
+        if type(age)!= int:
+            raise TypeError('age must be int!')
+        if type(subject_grade_dic)!= dict:
+            raise TypeError('subject and grades must be dictionary type!')
+
+        if not (5 <= age <= 120):  # Check if age is within the valid range
+            raise ValueError(f"Invalid age: {age}. Age must be between 5 and 120.")
+
+        if not i_d.isdigit() or len(i_d) != 9: # Validate ID length
+            raise ValueError("ID must be exactly 9 digits.")
+
         self.i_d = i_d
         self.name = name
         self.age = age
@@ -12,6 +29,8 @@ class Student:
 
     def __eq__(self, other):
         # Compare two students by their ID.
+        if type(other) != Student:
+            raise TypeError('compare only 2 students!')
         return self.i_d == other.i_d
 
     def __gt__(self, other):

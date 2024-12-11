@@ -1,6 +1,17 @@
 class File:
     # Attributes : name , suffix , size
     def __init__(self , name , suffix , size):
+        if type(size) != int:
+            raise TypeError('size must be int!!')
+        if type(name) != str:
+            raise TypeError('name must be string!!')
+        if type(suffix) != str:
+            raise TypeError('suffix must be string!!')
+        if len(suffix)<2:
+            raise ValueError('suffix too short!!')
+        if size < 0:
+            size = 0
+
         self.name = name
         self.suffix = suffix
         self.size = size

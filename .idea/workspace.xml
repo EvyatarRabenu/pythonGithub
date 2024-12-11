@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83273275-fad3-4320-81dd-d547ec262440" name="Changes" comment="final">
+    <list default="true" id="83273275-fad3-4320-81dd-d547ec262440" name="Changes" comment="final1">
+      <change afterPath="$PROJECT_DIR$/githubPackage/test_File.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studen_course_ex/test_Student.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studen_course_ex/Course.py" beforeDir="false" afterPath="$PROJECT_DIR$/studen_course_ex/Course.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/githubPackage/File.py" beforeDir="false" afterPath="$PROJECT_DIR$/githubPackage/File.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studen_course_ex/Student.py" beforeDir="false" afterPath="$PROJECT_DIR$/studen_course_ex/Student.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studen_course_ex/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/studen_course_ex/main.py" afterDir="false" />
     </list>
@@ -54,48 +56,128 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Course.executor&quot;: &quot;Run&quot;,
-    &quot;Python.File.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HardDisk.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HardDiskFiles.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Student.executor&quot;: &quot;Run&quot;,
-    &quot;Python.gitHubTest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.second_test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/nachala/PycharmProjects/pythonGithub&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_File.TestFile.test_init_invalid_name_type.executor": "Run",
+    "Python tests.Python tests for test_File.TestFile.test_init_invalid_negative_size.executor": "Run",
+    "Python tests.Python tests for test_File.TestFile.test_init_invalid_size_type.executor": "Run",
+    "Python tests.Python tests for test_File.TestFile.test_init_invalid_suffix_type.executor": "Run",
+    "Python tests.Python tests for test_Student.TestStudent.test_age_type.executor": "Run",
+    "Python tests.Python tests for test_Student.TestStudent.test_id_type.executor": "Run",
+    "Python tests.Python tests for test_Student.TestStudent.test_invalid_age_lower_limit.executor": "Run",
+    "Python tests.Python tests for test_Student.TestStudent.test_invalid_age_upper_limit.executor": "Run",
+    "Python tests.Python tests for test_Student.TestStudent.test_invalid_id_less_digits.executor": "Run",
+    "Python tests.Python tests for test_Student.TestStudent.test_invalid_id_upper_digits.executor": "Run",
+    "Python tests.Python tests for test_Student.TestStudent.test_name_type.executor": "Run",
+    "Python tests.Python tests for test_Student.TestStudent.test_subject_grade_dic_type.executor": "Run",
+    "Python tests.Python tests for test_Student.TestStudent.test_valid_age_lower_limit.executor": "Run",
+    "Python tests.Python tests for test_Student.TestStudent.test_valid_age_middle.executor": "Run",
+    "Python tests.Python tests for test_Student.TestStudent.test_valid_age_upper_limit.executor": "Run",
+    "Python tests.Python tests for test_Student.TestStudent.test_valid_eq_not_equal.executor": "Run",
+    "Python tests.Python tests for test_Student.TestStudent.test_valid_eq_student.executor": "Run",
+    "Python tests.Python tests for test_Student.TestStudent.test_valid_eq_student_different_dic.executor": "Run",
+    "Python tests.Python tests for test_Student.TestStudent.test_valid_eq_student_different_name.executor": "Run",
+    "Python tests.Python tests for test_Student.TestStudent.test_valid_id.executor": "Run",
+    "Python tests.Python tests for test_Student.TestStudent.test_valid_id_9_digits.executor": "Run",
+    "Python tests.Python tests for test_Student.TestStudent.test_valid_name.executor": "Run",
+    "Python tests.Python tests in test_File.py.executor": "Run",
+    "Python.Course.executor": "Run",
+    "Python.File.executor": "Run",
+    "Python.HardDisk.executor": "Run",
+    "Python.HardDiskFiles.executor": "Run",
+    "Python.Student.executor": "Run",
+    "Python.gitHubTest.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.second_test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/nachala/PycharmProjects/pythonGithub",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="HardDiskFiles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="Python tests.Python tests for test_Student.TestStudent.test_eq_type">
+    <configuration name="Python tests for test_Student.TestStudent.test_eq_type" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonGithub" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/githubPackage" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/studen_course_ex" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/githubPackage/HardDiskFiles.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Student.TestStudent.test_eq_type&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_Student.TestStudent.test_valid_eq_not_equal" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonGithub" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/studen_course_ex" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Student.TestStudent.test_valid_eq_not_equal&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_Student.TestStudent.test_valid_eq_student" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonGithub" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/studen_course_ex" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Student.TestStudent.test_valid_eq_student&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_Student.TestStudent.test_valid_eq_student_different_dic" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonGithub" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/studen_course_ex" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Student.TestStudent.test_valid_eq_student_different_dic&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_Student.TestStudent.test_valid_eq_student_different_name" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonGithub" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/studen_course_ex" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Student.TestStudent.test_valid_eq_student_different_name&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.HardDiskFiles" />
+        <item itemvalue="Python tests.Python tests for test_Student.TestStudent.test_eq_type" />
+        <item itemvalue="Python tests.Python tests for test_Student.TestStudent.test_valid_eq_not_equal" />
+        <item itemvalue="Python tests.Python tests for test_Student.TestStudent.test_valid_eq_student_different_dic" />
+        <item itemvalue="Python tests.Python tests for test_Student.TestStudent.test_valid_eq_student_different_name" />
+        <item itemvalue="Python tests.Python tests for test_Student.TestStudent.test_valid_eq_student" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +317,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1733850614863</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL‎-00016" summary="final1">
+      <option name="closed" value="true" />
+      <created>1733901361634</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL‎-00016" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1733901361636</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,6 +351,7 @@
     <MESSAGE value="student_course1" />
     <MESSAGE value="student_course2" />
     <MESSAGE value="final" />
-    <option name="LAST_COMMIT_MESSAGE" value="final" />
+    <MESSAGE value="final1" />
+    <option name="LAST_COMMIT_MESSAGE" value="final1" />
   </component>
 </project>
