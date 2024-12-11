@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83273275-fad3-4320-81dd-d547ec262440" name="Changes" comment="student_course2">
+    <list default="true" id="83273275-fad3-4320-81dd-d547ec262440" name="Changes" comment="final">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studen_course_ex/Course.py" beforeDir="false" afterPath="$PROJECT_DIR$/studen_course_ex/Course.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studen_course_ex/Student.py" beforeDir="false" afterPath="$PROJECT_DIR$/studen_course_ex/Student.py" afterDir="false" />
@@ -54,22 +54,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Course.executor": "Run",
-    "Python.File.executor": "Run",
-    "Python.HardDisk.executor": "Run",
-    "Python.HardDiskFiles.executor": "Run",
-    "Python.Student.executor": "Run",
-    "Python.gitHubTest.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.second_test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/nachala/PycharmProjects/pythonGithub",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Course.executor&quot;: &quot;Run&quot;,
+    &quot;Python.File.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HardDisk.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HardDiskFiles.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Student.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gitHubTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.second_test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nachala/PycharmProjects/pythonGithub&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="HardDiskFiles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonGithub" />
@@ -227,7 +227,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1733843785691</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL‎-00015" summary="final">
+      <option name="closed" value="true" />
+      <created>1733850614863</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL‎-00015" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1733850614863</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,6 +260,7 @@
     <MESSAGE value="student_course" />
     <MESSAGE value="student_course1" />
     <MESSAGE value="student_course2" />
-    <option name="LAST_COMMIT_MESSAGE" value="student_course2" />
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
 </project>
