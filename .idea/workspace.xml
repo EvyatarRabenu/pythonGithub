@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83273275-fad3-4320-81dd-d547ec262440" name="Changes" comment="final1">
-      <change afterPath="$PROJECT_DIR$/githubPackage/test_File.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studen_course_ex/test_Student.py" afterDir="false" />
+    <list default="true" id="83273275-fad3-4320-81dd-d547ec262440" name="Changes" comment="end lesson tests">
+      <change afterPath="$PROJECT_DIR$/studen_course_ex/test_Course.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/githubPackage/File.py" beforeDir="false" afterPath="$PROJECT_DIR$/githubPackage/File.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studen_course_ex/Student.py" beforeDir="false" afterPath="$PROJECT_DIR$/studen_course_ex/Student.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studen_course_ex/Course.py" beforeDir="false" afterPath="$PROJECT_DIR$/studen_course_ex/Course.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studen_course_ex/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/studen_course_ex/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,11 +56,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_Course.TestCourse.test_empty_weak_students.executor": "Run",
+    "Python tests.Python tests for test_Course.TestCourse.test_many_weak_students.executor": "Run",
+    "Python tests.Python tests for test_Course.TestCourse.test_valid_factor_added.executor": "Run",
     "Python tests.Python tests for test_File.TestFile.test_init_invalid_name_type.executor": "Run",
     "Python tests.Python tests for test_File.TestFile.test_init_invalid_negative_size.executor": "Run",
     "Python tests.Python tests for test_File.TestFile.test_init_invalid_size_type.executor": "Run",
     "Python tests.Python tests for test_File.TestFile.test_init_invalid_suffix_type.executor": "Run",
     "Python tests.Python tests for test_Student.TestStudent.test_age_type.executor": "Run",
+    "Python tests.Python tests for test_Student.TestStudent.test_eq_type.executor": "Run",
     "Python tests.Python tests for test_Student.TestStudent.test_id_type.executor": "Run",
     "Python tests.Python tests for test_Student.TestStudent.test_invalid_age_lower_limit.executor": "Run",
     "Python tests.Python tests for test_Student.TestStudent.test_invalid_age_upper_limit.executor": "Run",
@@ -95,7 +97,52 @@
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_Student.TestStudent.test_eq_type">
+  <component name="RunManager" selected="Python tests.Python tests for test_Course.TestCourse.test_many_weak_students">
+    <configuration name="Python tests for test_Course.TestCourse.test_empty_weak_students" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonGithub" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/studen_course_ex" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Course.TestCourse.test_empty_weak_students&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_Course.TestCourse.test_many_weak_students" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonGithub" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/studen_course_ex" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Course.TestCourse.test_many_weak_students&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_Course.TestCourse.test_valid_factor_added" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonGithub" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/studen_course_ex" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Course.TestCourse.test_valid_factor_added&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_Student.TestStudent.test_eq_type" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonGithub" />
       <option name="ENV_FILES" value="" />
@@ -126,58 +173,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_Student.TestStudent.test_valid_eq_student" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="pythonGithub" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/studen_course_ex" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Student.TestStudent.test_valid_eq_student&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_Student.TestStudent.test_valid_eq_student_different_dic" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="pythonGithub" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/studen_course_ex" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Student.TestStudent.test_valid_eq_student_different_dic&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_Student.TestStudent.test_valid_eq_student_different_name" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="pythonGithub" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/studen_course_ex" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Student.TestStudent.test_valid_eq_student_different_name&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_Course.TestCourse.test_many_weak_students" />
+        <item itemvalue="Python tests.Python tests for test_Course.TestCourse.test_empty_weak_students" />
+        <item itemvalue="Python tests.Python tests for test_Course.TestCourse.test_valid_factor_added" />
         <item itemvalue="Python tests.Python tests for test_Student.TestStudent.test_eq_type" />
         <item itemvalue="Python tests.Python tests for test_Student.TestStudent.test_valid_eq_not_equal" />
-        <item itemvalue="Python tests.Python tests for test_Student.TestStudent.test_valid_eq_student_different_dic" />
-        <item itemvalue="Python tests.Python tests for test_Student.TestStudent.test_valid_eq_student_different_name" />
-        <item itemvalue="Python tests.Python tests for test_Student.TestStudent.test_valid_eq_student" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +327,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1733901361636</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL‎-00017" summary="end lesson tests">
+      <option name="closed" value="true" />
+      <created>1733928923250</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL‎-00017" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1733928923250</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -352,6 +362,7 @@
     <MESSAGE value="student_course2" />
     <MESSAGE value="final" />
     <MESSAGE value="final1" />
-    <option name="LAST_COMMIT_MESSAGE" value="final1" />
+    <MESSAGE value="end lesson tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="end lesson tests" />
   </component>
 </project>

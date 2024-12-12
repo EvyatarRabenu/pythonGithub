@@ -2,7 +2,14 @@ from studen_course_ex.Course import Course
 from studen_course_ex.Student import Student
 
 
-
+# course = Course('1234','python',5)
+# student1 = Student('208233650', 'liron', 25, {'math': 90,'english':60})
+# student2 = Student('303453350', 'tesler', 24, {'math': 70})
+# student3 = Student('318233345', 'evyatar', 30, {'english': 70})
+# course.add_student(student1)
+# course.add_student(student2)
+# course.add_student(student3)
+# print(course)
 
 # Get basic course details from the user
 try:
